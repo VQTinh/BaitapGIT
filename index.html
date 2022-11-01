@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .info {
+        background-color: red;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="txtUser" type="text" value="Cybersoft" />
+    <button onclick="demoClick()">Click</button>
+
+    <hr />
+    <input id="soThu1" type="text" placeholder="Nhap so thu 1" />
+    <input id="soThu2" type="text" placeholder="Nhap so thu 2" />
+    <button onclick="tinhTong2So()">Tinh tong</button>
+    <div id="divInfo" class="demo"></div>
+    <hr />
+    <input id="number" type="text" placeholder="nhap so" />
+    <button onclick="kiemTraSo()">Kiem tra so</button>
+    <div id="infoCheckNumber"></div>
+
+    <hr />
+    <input type="text" id="st1" placeholder="nhập số thứ 1 " />
+    <input type="text" id="st2" placeholder="nhập số thứ 2 " />
+    <input type="text" id="st3" placeholder="nhập số thứ 3 " />
+    <button onclick="sapxep()">sắp xếp</button>
+    <div id="ketqua" class="info"></div>
+
+    <hr />
+    <!-- loichao -->
+    <select id="select" class="form-select" aria-label="Default select example">
+      <option selected>Who is this?</option>
+      <option value="B">Bố</option>
+      <option value="M">Mẹ</option>
+      <option value="A">Anh trai</option>
+      <option value="E">Em gái</option>
+    </select>
+    <button onclick="loichao()">Gửi lời chào</button>
+    <div id="resultofop" class="info"></div>
+
+    <!-- đếm cl -->
+    <input type="text" id="so1" placeholder="nhập số 1st" />
+    <input type="text" id="so2" placeholder="nhập số 2st" />
+    <input type="text" id="so3" placeholder="nhập số 3st" />
+    <button onclick="dem()">đếm</button>
+    <div id="resultofdem" class="info"></div>
+
+    <!-- xác định tam giac -->
+    <input type="text" id="c1" placeholder="nhập số 1st" />
+    <input type="text" id="c2" placeholder="nhập số 2st" />
+    <input type="text" id="c3" placeholder="nhập số 3st" />
+    <button onclick="xd()">tam giác</button>
+    <div id="tamgiac" class="info"></div>
+
+    <!-- tìm ngày tháng năm -->
+    <input type="date" id="date" name="" min="1970-01-01" min="2012-12-31" />
+    <button onclick="giam()">ngày hôm qua</button>
+    <button onclick="tang()">ngày mai</button>
+    <div id="ngay" class="info"></div>
+
+    <!-- cho biết tháng có bao nhiêu ngày -->
+
+    <input type="text" id="t1" placeholder="nhập tháng" />
+    <input type="text" id="n1" placeholder="nhập năm" />
+    <button onclick="results()">ta được</button>
+    <div id="kqt" class="info"></div>
+    <!-- đọc số  -->
+
+    <input type="text" id="k" placeholder="nhập số 3 chữ số" />
+    
+    <button onclick="k()">ta được</button>
+    <div id="dk" class="info"></div>
+
+
+    <!-- sinh vien  -->
+    <label for="sv1"> sinh viên 1</label>
+    <input type="text" id="sv1" />
+    <input type="text" id="x1" />
+    <input type="text" id="y1" />
+    <label for="sv1"> sinh viên 2</label>
+    <input type="text" id="sv2" />
+    <input type="text" id="x2" />
+    <input type="text" id="y2" />
+    <label for="sv1"> sinh viên 3 </label>
+    <input type="text" id="sv3" />
+    <input type="text" id="x3" />
+    <input type="text" id="y3" />
+    <label for="sv1"> trường học</label>
+    <input type="text" id="x4" />
+    <input type="text" id="y4" />
+    <button onclick="d()">đường</button>
+    <div id="ai" class="info"></div>
+
+
+
+    <!-- js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
